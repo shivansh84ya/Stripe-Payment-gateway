@@ -1,5 +1,5 @@
 const stripe = require("stripe")(
-  "sk_test_51PEQ9RSHmG6dlkny9ddT5UkrKgnTnFwff63BoyoO7ElBjGh6ulZdfwpzOKbvEwKTjWKzYlMZK1yoPcfw4zxgIkTY00zYD2pFe1"
+  
 );
 
 const Payment = require("../models/paymentModels");

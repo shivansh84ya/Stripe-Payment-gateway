@@ -11,7 +11,7 @@ import CheckoutForm from './components/CheckoutForm';
 import { Elements } from '@stripe/react-stripe-js';
 import {loadStripe} from '@stripe/stripe-js';
 function App() {
-  const stripePromise = loadStripe('pk_test_51PEQ9RSHmG6dlknyz4zCZxZDY412eF9HHXnyfatfXJ2RbOYR4LpuP1lI444PUSDmpmVLHgHzrcNyJgNZq2uXMt1V00GXDWNnut');
+  const stripePromise = loadStripe('');
   return (
     <>
      <Headers />
